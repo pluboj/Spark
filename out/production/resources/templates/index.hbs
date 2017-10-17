@@ -8,11 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Welcome!</h1>
+    {{#if username }}
+        <h1>Welcome {{ username }}!</h1>
+    {{ else }}
+        <h1>Welcome!</h1>
 
-    <form action="/sign-in" method="post">
-        <input type="text" placeholder="User name" name="username" />
-        <button>Sign in</button>
-    </form>
+        <form action="/sign-in" method="post">
+            <input type="text" placeholder="User name" name="username" />
+            <button>Sign in</button>
+        </form>
+    {{/if}}
 </body>
 </html>
