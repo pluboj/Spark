@@ -1,5 +1,6 @@
 package com.pluboj.courses;
 
+import com.pluboj.courses.model.CourseIdea;
 import com.pluboj.courses.model.CourseIdeaDAO;
 import com.pluboj.courses.model.SimpleCourseIdeaDAO;
 import spark.ModelAndView;
@@ -30,5 +31,20 @@ public class Main {
             model.put("username", username);
             return new ModelAndView(model, "sign-in.hbs");
         }, new HandlebarsTemplateEngine());
+
+        get("/ideas", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            model.put("ideas", dao.findAll());
+            return new ModelAndView(model, "ideas.hbs");
+        }, new HandlebarsTemplateEngine());
+
+        post("/ideas", (req, res) -> {
+            String title = req.queryParams("title");
+            CourseIdea courseIdea = new CourseIdea(title,
+                    req.cookie("username"));
+            dao.add(courseIdea);
+            res.redirect("/ideas");
+            return null;
+        });
     }
 }
