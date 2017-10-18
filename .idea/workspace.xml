@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b4d5259-2e88-4b3f-9fa2-9bff7950f834" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/pluboj/courses/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/pluboj/courses/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/public/css/main.css" afterPath="$PROJECT_DIR$/src/main/resources/public/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/base.hbs" afterPath="$PROJECT_DIR$/src/main/resources/templates/base.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -42,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/pluboj/courses/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+            <state relative-caret-position="418">
+              <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -62,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.hbs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="base.hbs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/base.hbs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="484">
@@ -510,10 +506,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/pluboj/courses/model/SimpleCourseIdeaDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/sign-in.hbs" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/ideas.hbs" />
-        <option value="$PROJECT_DIR$/src/main/java/com/pluboj/courses/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.hbs" />
         <option value="$PROJECT_DIR$/src/main/resources/public/css/main.css" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/base.hbs" />
+        <option value="$PROJECT_DIR$/src/main/java/com/pluboj/courses/Main.java" />
       </list>
     </option>
   </component>
@@ -765,7 +761,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23815621" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23815621" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -984,14 +980,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluboj/courses/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ideas.hbs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -1028,6 +1016,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pluboj/courses/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
           <folding />
         </state>
       </provider>
