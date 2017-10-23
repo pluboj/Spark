@@ -2,6 +2,7 @@ package com.pluboj.courses;
 
 import com.pluboj.courses.model.CourseIdea;
 import com.pluboj.courses.model.CourseIdeaDAO;
+import com.pluboj.courses.model.NotFoundException;
 import com.pluboj.courses.model.SimpleCourseIdeaDAO;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
@@ -70,6 +71,13 @@ public class Main {
             idea.addVoter(req.attribute("username"));
             res.redirect("/ideas");
             return null;
+        });
+
+        exception(NotFoundException.class, (exc, req, res) -> {
+            res.status(404);
+            HandlebarsTemplateEngine engine = new HandlebarsTemplateEngine();
+            String html = engine.render(new ModelAndView(null, "not-found.hbs"));
+            res.body(html);
         });
     }
 }
